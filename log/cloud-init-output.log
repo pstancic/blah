@@ -1,0 +1,197 @@
+Cloud-init v. 0.7.9 running 'init-local' at Sun, 04 Oct 2020 23:04:09 +0000. Up 8.07 seconds.
+Cloud-init v. 0.7.9 running 'init' at Sun, 04 Oct 2020 23:04:10 +0000. Up 8.99 seconds.
+ci-info: ++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: |  Device |  Up  |    Address     |      Mask     | Scope |     Hw-Address    |
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: |   lo:   | True |   127.0.0.1    |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo:   | True |       .        |       .       |   d   |         .         |
+ci-info: |  eth0:  | True | 165.232.58.184 | 255.255.240.0 |   .   | 76:56:58:54:9a:fd |
+ci-info: |  eth0:  | True |       .        |       .       |   d   | 76:56:58:54:9a:fd |
+ci-info: |  eth1:  | True |   10.120.0.2   | 255.255.240.0 |   .   | aa:ca:fb:90:68:c9 |
+ci-info: |  eth1:  | True |       .        |       .       |   d   | aa:ca:fb:90:68:c9 |
+ci-info: | eth0:1: | True |   10.46.0.5    |  255.255.0.0  |   .   | 76:56:58:54:9a:fd |
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 165.232.48.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |  10.46.0.0   |   0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   |  10.120.0.0  |   0.0.0.0    | 255.255.240.0 |    eth1   |   U   |
+ci-info: |   3   | 165.232.48.0 |   0.0.0.0    | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:sOBN8ZsZqM/tlSU++Hplw6QxFyNq/l8oJ+Un6jmeljA root@misterLogLog
+The key's randomart image is:
++---[RSA 2048]----+
+|      .          |
+|       +  . o    |
+|    . + o. . o   |
+|   . = oo=o o    |
+|    o ooS .Bo    |
+|     o .Eo.*=.   |
+|      o o+B+=.o  |
+|       . o*O +   |
+|        o*Bo.    |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:FWCJG4o/XZaI4eA+CgaAGrKu/2PxXQu5k/JPhKdSc2Q root@misterLogLog
+The key's randomart image is:
++---[DSA 1024]----+
+|.      .oo.      |
+|= . . o..  .     |
+|++ + + + .E      |
+|+ o + o +=       |
+|o. . . oS.+      |
+|.oo + ..o*.      |
+|+. . +...=..     |
+|o   o o.=..      |
+| ..o.. o.o.      |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:4UWJNJxptr0AeLYcwuGYgAL4vI3JLbU1GqPXWHZxXm4 root@misterLogLog
+The key's randomart image is:
++---[ECDSA 256]---+
+|*  ..o oo+..     |
+|+. ++ = Ooo .    |
+|.oo .= *.*.o     |
+|  o + B.+oo E    |
+| . O @ oS. o     |
+|  B B .   .      |
+|   o             |
+|                 |
+|                 |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:HiZnLDHmusrIcShw5jo3rWDQsmtG/u6eedXcUcKopmo root@misterLogLog
+The key's randomart image is:
++--[ED25519 256]--+
+|          o      |
+|         . o .   |
+|      + .   o    |
+| .   o *   .     |
+|+ +   * S . .    |
+|oB.  o O + .     |
+|*+.oo . .        |
+|=X=E+o           |
+|*+X@o            |
++----[SHA256]-----+
+Generating locales (this might take a while)...
+Generation complete.
+Cloud-init v. 0.7.9 running 'modules:config' at Sun, 04 Oct 2020 23:04:12 +0000. Up 10.48 seconds.
+Cleaning up old sources...OK
+Verifying machine compatibility...OK
+Verifying compatibility with script...OK
+Installing apt repository...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29440 files and directories currently installed.)
+Preparing to unpack .../00-libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../01-libsasl2-2_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../02-libldap-common_2.4.44+dfsg-5+deb9u4_all.deb ...
+Unpacking libldap-common (2.4.44+dfsg-5+deb9u4) ...
+Selecting previously unselected package libldap-2.4-2:amd64.
+Preparing to unpack .../03-libldap-2.4-2_2.4.44+dfsg-5+deb9u4_amd64.deb ...
+Unpacking libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u4) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../04-libnghttp2-14_1.18.1-1+deb9u1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.18.1-1+deb9u1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../05-librtmp1_2.4+20151223.gitfa8646d.1-1+b1_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1+b1) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../06-libssh2-1_1.7.0-1+deb9u1_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.7.0-1+deb9u1) ...
+Selecting previously unselected package libcurl3-gnutls:amd64.
+Preparing to unpack .../07-libcurl3-gnutls_7.52.1-5+deb9u12_amd64.deb ...
+Unpacking libcurl3-gnutls:amd64 (7.52.1-5+deb9u12) ...
+Selecting previously unselected package apt-transport-https.
+Preparing to unpack .../08-apt-transport-https_1.4.10_amd64.deb ...
+Unpacking apt-transport-https (1.4.10) ...
+Selecting previously unselected package libcurl3:amd64.
+Preparing to unpack .../09-libcurl3_7.52.1-5+deb9u12_amd64.deb ...
+Unpacking libcurl3:amd64 (7.52.1-5+deb9u12) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../10-curl_7.52.1-5+deb9u12_amd64.deb ...
+Unpacking curl (7.52.1-5+deb9u12) ...
+Selecting previously unselected package gnupg2.
+Preparing to unpack .../11-gnupg2_2.1.18-8~deb9u4_all.deb ...
+Unpacking gnupg2 (2.1.18-8~deb9u4) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../12-libsasl2-modules_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Setting up libnghttp2-14:amd64 (1.18.1-1+deb9u1) ...
+Setting up libldap-common (2.4.44+dfsg-5+deb9u4) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Setting up libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1+b1) ...
+Setting up gnupg2 (2.1.18-8~deb9u4) ...
+Setting up libssh2-1:amd64 (1.7.0-1+deb9u1) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Setting up libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u4) ...
+Setting up libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...
+Setting up libcurl3:amd64 (7.52.1-5+deb9u12) ...
+Setting up libcurl3-gnutls:amd64 (7.52.1-5+deb9u12) ...
+Setting up apt-transport-https (1.4.10) ...
+Setting up curl (7.52.1-5+deb9u12) ...
+Processing triggers for libc-bin (2.24-11+deb9u4) ...
+Installing gpg key...Warning: apt-key output should not be parsed (stdout is not a terminal)
+OK
+Selecting previously unselected package do-agent.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 29563 files and directories currently installed.)
+Preparing to unpack .../do-agent_3.6.0_amd64.deb ...
+Unpacking do-agent (3.6.0) ...
+Setting up do-agent (3.6.0) ...
+Detecting SELinux
+SELinux not enforced
+userdel: user 'do-agent' does not exist
+sent invalidate(passwd) request, exiting
+sent invalidate(group) request, exiting
+sent invalidate(passwd) request, exiting
+sent invalidate(group) request, exiting
+enable systemd service
+Created symlink /etc/systemd/system/multi-user.target.wants/do-agent.service → /etc/systemd/system/do-agent.service.
+Cloud-init v. 0.7.9 running 'modules:final' at Sun, 04 Oct 2020 23:04:14 +0000. Up 12.77 seconds.
+Cloud-init v. 0.7.9 finished at Sun, 04 Oct 2020 23:04:33 +0000. Datasource DataSourceConfigDrive [net,ver=2][source=/dev/vdb].  Up 30.95 seconds
+Cloud-init v. 0.7.9 running 'init-local' at Wed, 31 Mar 2021 23:51:00 +0000. Up 7.35 seconds.
+Cloud-init v. 0.7.9 running 'init' at Wed, 31 Mar 2021 23:51:00 +0000. Up 8.05 seconds.
+ci-info: ++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: |  Device |  Up  |    Address     |      Mask     | Scope |     Hw-Address    |
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: | eth0:1: | True |   10.46.0.5    |  255.255.0.0  |   .   | 76:56:58:54:9a:fd |
+ci-info: |   lo:   | True |   127.0.0.1    |   255.0.0.0   |   .   |         .         |
+ci-info: |   lo:   | True |       .        |       .       |   d   |         .         |
+ci-info: |  eth0:  | True | 165.232.58.184 | 255.255.240.0 |   .   | 76:56:58:54:9a:fd |
+ci-info: |  eth0:  | True |       .        |       .       |   d   | 76:56:58:54:9a:fd |
+ci-info: |  eth1:  | True |   10.120.0.2   | 255.255.240.0 |   .   | aa:ca:fb:90:68:c9 |
+ci-info: |  eth1:  | True |       .        |       .       |   d   | aa:ca:fb:90:68:c9 |
+ci-info: +---------+------+----------------+---------------+-------+-------------------+
+ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0    | 165.232.48.1 |    0.0.0.0    |    eth0   |   UG  |
+ci-info: |   1   |  10.46.0.0   |   0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+ci-info: |   2   |  10.120.0.0  |   0.0.0.0    | 255.255.240.0 |    eth1   |   U   |
+ci-info: |   3   | 165.232.48.0 |   0.0.0.0    | 255.255.240.0 |    eth0   |   U   |
+ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Cloud-init v. 0.7.9 running 'modules:config' at Wed, 31 Mar 2021 23:51:01 +0000. Up 9.10 seconds.
+Cloud-init v. 0.7.9 running 'modules:final' at Wed, 31 Mar 2021 23:51:04 +0000. Up 11.66 seconds.
+Cloud-init v. 0.7.9 finished at Wed, 31 Mar 2021 23:51:04 +0000. Datasource DataSourceConfigDrive [net,ver=2][source=/dev/vdb].  Up 11.76 seconds

@@ -1,0 +1,10 @@
+
+Start-Date: 2021-04-01  00:44:32
+Commandline: apt install golang-go
+Install: libmpc3:amd64 (1.0.3-1+b2, automatic), manpages:amd64 (4.10-2, automatic), libmpx2:amd64 (6.3.0-18+deb9u1, automatic), linux-libc-dev:amd64 (4.9.258-1, automatic), libmpfr4:amd64 (3.1.5-1, automatic), libc6-dev:amd64 (2.24-11+deb9u4, automatic), cpp-6:amd64 (6.3.0-18+deb9u1, automatic), binutils:amd64 (2.28-5, automatic), cpp:amd64 (4:6.3.0-4, automatic), libitm1:amd64 (6.3.0-18+deb9u1, automatic), g++:amd64 (4:6.3.0-4, automatic), gcc:amd64 (4:6.3.0-4, automatic), libcilkrts5:amd64 (6.3.0-18+deb9u1, automatic), libasan3:amd64 (6.3.0-18+deb9u1, automatic), libquadmath0:amd64 (6.3.0-18+deb9u1, automatic), libisl15:amd64 (0.18-1, automatic), libfile-fcntllock-perl:amd64 (0.22-3+b2, automatic), libtsan0:amd64 (6.3.0-18+deb9u1, automatic), golang-src:amd64 (2:1.7~5, automatic), libgcc-6-dev:amd64 (6.3.0-18+deb9u1, automatic), libubsan0:amd64 (6.3.0-18+deb9u1, automatic), g++-6:amd64 (6.3.0-18+deb9u1, automatic), pkg-config:amd64 (0.29-4+b1, automatic), gcc-6:amd64 (6.3.0-18+deb9u1, automatic), xz-utils:amd64 (5.2.2-1.2+b1, automatic), liblsan0:amd64 (6.3.0-18+deb9u1, automatic), libgomp1:amd64 (6.3.0-18+deb9u1, automatic), manpages-dev:amd64 (4.10-2, automatic), libc-dev-bin:amd64 (2.24-11+deb9u4, automatic), libatomic1:amd64 (6.3.0-18+deb9u1, automatic), libcc1-0:amd64 (6.3.0-18+deb9u1, automatic), golang-1.7-go:amd64 (1.7.4-2+deb9u3, automatic), libdpkg-perl:amd64 (1.18.25, automatic), golang-go:amd64 (2:1.7~5), golang-1.7-src:amd64 (1.7.4-2+deb9u3, automatic), libstdc++-6-dev:amd64 (6.3.0-18+deb9u1, automatic)
+End-Date: 2021-04-01  00:44:42
+
+Start-Date: 2021-04-01  00:46:12
+Commandline: apt install git
+Install: git-man:amd64 (1:2.11.0-3+deb9u7, automatic), git:amd64 (1:2.11.0-3+deb9u7), rsync:amd64 (3.1.2-1+deb9u2, automatic), patch:amd64 (2.7.5-1+deb9u2, automatic), liberror-perl:amd64 (0.17024-1, automatic)
+End-Date: 2021-04-01  00:46:13

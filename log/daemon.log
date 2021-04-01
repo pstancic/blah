@@ -1,0 +1,249 @@
+Mar 29 06:30:58 misterLogLog systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 29 06:30:58 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 33min 58.654210s random time.
+Mar 29 06:30:58 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 52min 2.994166s random time.
+Mar 29 16:49:01 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 29 16:49:01 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 29 16:49:01 misterLogLog systemd[1]: apt-daily.timer: Adding 1h 25min 35.943780s random time.
+Mar 29 16:49:01 misterLogLog systemd[1]: apt-daily.timer: Adding 9h 25min 4.343141s random time.
+Mar 30 01:05:03 misterLogLog systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 30 01:05:03 misterLogLog systemd[1]: Started Cleanup of Temporary Directories.
+Mar 30 03:25:53 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 30 03:25:53 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 30 03:25:53 misterLogLog systemd[1]: apt-daily.timer: Adding 9h 21min 57.863629s random time.
+Mar 30 03:25:53 misterLogLog systemd[1]: apt-daily.timer: Adding 1h 24min 2.895294s random time.
+Mar 30 06:29:11 misterLogLog systemd[1]: Reloading.
+Mar 30 06:29:12 misterLogLog systemd[1]: Reloading.
+Mar 30 06:29:12 misterLogLog systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 30 06:29:12 misterLogLog systemd[1]: Stopping The DigitalOcean Monitoring Agent...
+Mar 30 06:29:12 misterLogLog systemd[1]: Stopped The DigitalOcean Monitoring Agent.
+Mar 30 06:29:12 misterLogLog systemd[1]: Started The DigitalOcean Monitoring Agent.
+Mar 30 06:29:12 misterLogLog systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 30 06:29:12 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 21min 42.286358s random time.
+Mar 30 06:29:12 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 39min 49.124584s random time.
+Mar 30 13:37:53 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 30 13:37:53 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 30 13:37:53 misterLogLog systemd[1]: apt-daily.timer: Adding 10h 54min 16.735911s random time.
+Mar 30 13:37:53 misterLogLog systemd[1]: apt-daily.timer: Adding 4h 33min 51.154931s random time.
+Mar 30 22:33:53 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 30 22:33:54 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 30 22:33:54 misterLogLog systemd[1]: apt-daily.timer: Adding 5h 18min 538.438ms random time.
+Mar 30 22:33:54 misterLogLog systemd[1]: apt-daily.timer: Adding 2h 25min 13.963437s random time.
+Mar 31 01:06:03 misterLogLog systemd[1]: Starting Cleanup of Temporary Directories...
+Mar 31 01:06:03 misterLogLog systemd[1]: Started Cleanup of Temporary Directories.
+Mar 31 06:40:01 misterLogLog systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar 31 06:40:01 misterLogLog systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 31 06:40:01 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 47min 22.251309s random time.
+Mar 31 06:40:01 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 44min 19.818496s random time.
+Mar 31 08:25:53 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 31 08:25:53 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 31 08:25:53 misterLogLog systemd[1]: apt-daily.timer: Adding 7h 8min 23.014273s random time.
+Mar 31 08:25:53 misterLogLog systemd[1]: apt-daily.timer: Adding 3h 5min 18.713604s random time.
+Mar 31 21:06:01 misterLogLog systemd[1]: Starting Daily apt download activities...
+Mar 31 21:06:01 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 31 21:06:01 misterLogLog systemd[1]: apt-daily.timer: Adding 6h 22min 44.615338s random time.
+Mar 31 21:06:01 misterLogLog systemd[1]: apt-daily.timer: Adding 10h 46min 22.961996s random time.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped target Timers.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped target Graphical Interface.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped target Cloud-init target.
+Mar 31 23:50:12 misterLogLog systemd[1]: Reached target Unmount All Filesystems.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped Daily apt upgrade and clean activities.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped Execute cloud user/final scripts.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped Apply the settings specified in cloud-config.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopped target Multi-User System.
+Mar 31 23:50:12 misterLogLog systemd[1]: Stopping OpenBSD Secure Shell server...
+Mar 31 23:51:01 misterLogLog systemd-fsck[446]: /dev/vda1: clean, 38342/1638400 files, 387869/6552827 blocks
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Apply Kernel Variables.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Remount Root and Kernel File Systems.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Load/Save Random Seed...
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting udev Coldplug all Devices...
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Local File Systems (Pre).
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Local File Systems.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting udev Kernel Device Manager...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Load/Save Random Seed.
+Mar 31 23:51:01 misterLogLog systemd-udevd[478]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Create Volatile Files and Directories...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started udev Kernel Device Manager.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Create Volatile Files and Directories.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target System Time Synchronized.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started udev Coldplug all Devices.
+Mar 31 23:51:01 misterLogLog systemd[1]: Found device /dev/ttyS0.
+Mar 31 23:51:01 misterLogLog cloud-init[475]: Cloud-init v. 0.7.9 running 'init-local' at Wed, 31 Mar 2021 23:51:00 +0000. Up 7.35 seconds.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Initial cloud-init job (pre-networking).
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Network (Pre).
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Raise network interfaces...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Raise network interfaces.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Network.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Mar 31 23:51:01 misterLogLog systemd[1]: Stopping udev Kernel Device Manager...
+Mar 31 23:51:01 misterLogLog systemd[1]: Stopped udev Kernel Device Manager.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting udev Kernel Device Manager...
+Mar 31 23:51:01 misterLogLog systemd-udevd[651]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started udev Kernel Device Manager.
+Mar 31 23:51:01 misterLogLog systemd-udevd[651]: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 31 23:51:01 misterLogLog cloud-init[617]: Cloud-init v. 0.7.9 running 'init' at Wed, 31 Mar 2021 23:51:00 +0000. Up 8.05 seconds.
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: ++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +---------+------+----------------+---------------+-------+-------------------+
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |  Device |  Up  |    Address     |      Mask     | Scope |     Hw-Address    |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +---------+------+----------------+---------------+-------+-------------------+
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: | eth0:1: | True |   10.46.0.5    |  255.255.0.0  |   .   | 76:56:58:54:9a:fd |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   lo:   | True |   127.0.0.1    |   255.0.0.0   |   .   |         .         |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   lo:   | True |       .        |       .       |   d   |         .         |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |  eth0:  | True | 165.232.58.184 | 255.255.240.0 |   .   | 76:56:58:54:9a:fd |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |  eth0:  | True |       .        |       .       |   d   | 76:56:58:54:9a:fd |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |  eth1:  | True |   10.120.0.2   | 255.255.240.0 |   .   | aa:ca:fb:90:68:c9 |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |  eth1:  | True |       .        |       .       |   d   | aa:ca:fb:90:68:c9 |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +---------+------+----------------+---------------+-------+-------------------+
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: | Route | Destination  |   Gateway    |    Genmask    | Interface | Flags |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   0   |   0.0.0.0    | 165.232.48.1 |    0.0.0.0    |    eth0   |   UG  |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   1   |  10.46.0.0   |   0.0.0.0    |  255.255.0.0  |    eth0   |   U   |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   2   |  10.120.0.0  |   0.0.0.0    | 255.255.240.0 |    eth1   |   U   |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: |   3   | 165.232.48.0 |   0.0.0.0    | 255.255.240.0 |    eth0   |   U   |
+Mar 31 23:51:01 misterLogLog cloud-init[617]: ci-info: +-------+--------------+--------------+---------------+-----------+-------+
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Initial cloud-init job (metadata service crawler).
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Network is Online.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target System Initialization.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 31 23:51:01 misterLogLog systemd[1]: apt-daily.timer: Adding 11h 33min 39.294277s random time.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Daily apt download activities.
+Mar 31 23:51:01 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 2min 4.846666s random time.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Timers.
+Mar 31 23:51:01 misterLogLog systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Sockets.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Basic System.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting The Apache HTTP Server...
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting OpenBSD Secure Shell server...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Regular background program processing daemon.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting System Logging Service...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started irqbalance daemon.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started The DigitalOcean Monitoring Agent.
+Mar 31 23:51:01 misterLogLog /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Permit User Sessions...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started D-Bus System Message Bus.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Login Service...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Name Service Cache Daemon.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting A high performance web server and a reverse proxy server...
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting LSB: Start NTP daemon...
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Cloud-config availability.
+Mar 31 23:51:01 misterLogLog systemd[1]: Starting Apply the settings specified in cloud-config...
+Mar 31 23:51:01 misterLogLog systemd[1]: Started System Logging Service.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Permit User Sessions.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Login Service.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Getty on tty1.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started Serial Getty on ttyS0.
+Mar 31 23:51:01 misterLogLog systemd[1]: Reached target Login Prompts.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started OpenBSD Secure Shell server.
+Mar 31 23:51:01 misterLogLog ntpd[742]: ntpd 4.2.8p10@1.3728-o Sun Feb 25 21:22:55 UTC 2018 (1): Starting
+Mar 31 23:51:01 misterLogLog ntpd[742]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 105:109
+Mar 31 23:51:01 misterLogLog ntp[715]: Starting NTP server: ntpd.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started The Apache HTTP Server.
+Mar 31 23:51:01 misterLogLog systemd[1]: Started LSB: Start NTP daemon.
+Mar 31 23:51:01 misterLogLog ntpd[750]: proto: precision = 0.057 usec (-24)
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen and drop on 0 v6wildcard [::]:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 2 lo 127.0.0.1:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 3 eth0 165.232.58.184:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 4 eth0:1 10.46.0.5:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 5 eth1 10.120.0.2:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 6 lo [::1]:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listen normally on 7 eth0 [fe80::7456:58ff:fe54:9afd%2]:123
+Mar 31 23:51:01 misterLogLog ntpd[750]: bind(24) AF_INET6 fe80::a8ca:fbff:fe90:68c9%3#123 flags 0x11 failed: Cannot assign requested address
+Mar 31 23:51:01 misterLogLog ntpd[750]: unable to create socket on eth1 (8) for fe80::a8ca:fbff:fe90:68c9%3#123
+Mar 31 23:51:01 misterLogLog ntpd[750]: failed to init interface for address fe80::a8ca:fbff:fe90:68c9%3
+Mar 31 23:51:01 misterLogLog ntpd[750]: Listening on routing socket on fd #24 for interface updates
+Mar 31 23:51:01 misterLogLog nginx[753]: nginx: [emerg] listen() to 0.0.0.0:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:01 misterLogLog nginx[753]: nginx: [emerg] listen() to [::]:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:01 misterLogLog cloud-init[718]: Cloud-init v. 0.7.9 running 'modules:config' at Wed, 31 Mar 2021 23:51:01 +0000. Up 9.10 seconds.
+Mar 31 23:51:02 misterLogLog systemd[1]: Started Apply the settings specified in cloud-config.
+Mar 31 23:51:02 misterLogLog nginx[753]: nginx: [emerg] listen() to 0.0.0.0:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:02 misterLogLog nginx[753]: nginx: [emerg] listen() to [::]:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:02 misterLogLog nginx[753]: nginx: [emerg] listen() to 0.0.0.0:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:02 misterLogLog nginx[753]: nginx: [emerg] listen() to [::]:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:03 misterLogLog nginx[753]: nginx: [emerg] listen() to 0.0.0.0:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:03 misterLogLog nginx[753]: nginx: [emerg] listen() to [::]:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:03 misterLogLog ntpd[750]: Listen normally on 9 eth1 [fe80::a8ca:fbff:fe90:68c9%3]:123
+Mar 31 23:51:03 misterLogLog nginx[753]: nginx: [emerg] listen() to 0.0.0.0:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:03 misterLogLog nginx[753]: nginx: [emerg] listen() to [::]:80, backlog 511 failed (98: Address already in use)
+Mar 31 23:51:04 misterLogLog ntpd[750]: Soliciting pool server 66.228.59.187
+Mar 31 23:51:04 misterLogLog ntpd[750]: Soliciting pool server 64.225.34.103
+Mar 31 23:51:04 misterLogLog nginx[753]: nginx: [emerg] still could not bind()
+Mar 31 23:51:04 misterLogLog systemd[1]: nginx.service: Control process exited, code=exited status=1
+Mar 31 23:51:04 misterLogLog systemd[1]: Failed to start A high performance web server and a reverse proxy server.
+Mar 31 23:51:04 misterLogLog systemd[1]: nginx.service: Unit entered failed state.
+Mar 31 23:51:04 misterLogLog systemd[1]: nginx.service: Failed with result 'exit-code'.
+Mar 31 23:51:04 misterLogLog systemd[1]: Reached target Multi-User System.
+Mar 31 23:51:04 misterLogLog systemd[1]: Starting Execute cloud user/final scripts...
+Mar 31 23:51:04 misterLogLog systemd[1]: Reached target Graphical Interface.
+Mar 31 23:51:04 misterLogLog systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 31 23:51:04 misterLogLog systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 31 23:51:04 misterLogLog cloud-init[827]: Cloud-init v. 0.7.9 running 'modules:final' at Wed, 31 Mar 2021 23:51:04 +0000. Up 11.66 seconds.
+Mar 31 23:51:04 misterLogLog cloud-init[827]: Cloud-init v. 0.7.9 finished at Wed, 31 Mar 2021 23:51:04 +0000. Datasource DataSourceConfigDrive [net,ver=2][source=/dev/vdb].  Up 11.76 seconds
+Mar 31 23:51:04 misterLogLog ntpd[750]: Soliciting pool server 193.2.78.228
+Mar 31 23:51:04 misterLogLog ntpd[750]: Soliciting pool server 69.1.1.251
+Mar 31 23:51:04 misterLogLog ntpd[750]: Soliciting pool server 50.205.244.109
+Mar 31 23:51:04 misterLogLog systemd[1]: Started Execute cloud user/final scripts.
+Mar 31 23:51:04 misterLogLog systemd[1]: Reached target Cloud-init target.
+Mar 31 23:51:04 misterLogLog systemd[1]: Startup finished in 6.152s (kernel) + 5.682s (userspace) = 11.835s.
+Mar 31 23:51:05 misterLogLog ntpd[750]: Soliciting pool server 162.159.200.123
+Mar 31 23:51:05 misterLogLog ntpd[750]: Soliciting pool server 5.196.160.139
+Mar 31 23:51:05 misterLogLog ntpd[750]: Soliciting pool server 162.159.200.123
+Mar 31 23:51:05 misterLogLog ntpd[750]: Soliciting pool server 163.237.218.18
+Mar 31 23:51:06 misterLogLog ntpd[750]: Soliciting pool server 209.50.63.74
+Mar 31 23:51:06 misterLogLog ntpd[750]: Soliciting pool server 162.159.200.1
+Mar 31 23:51:06 misterLogLog ntpd[750]: Soliciting pool server 212.18.3.19
+Mar 31 23:51:07 misterLogLog ntpd[750]: Soliciting pool server 131.216.7.51
+Mar 31 23:51:07 misterLogLog ntpd[750]: Soliciting pool server 108.59.2.24
+Mar 31 23:51:08 misterLogLog ntpd[750]: Soliciting pool server 45.63.54.13
+Mar 31 23:51:08 misterLogLog ntpd[750]: Soliciting pool server 2001:470:1f06:50::2
+Mar 31 23:51:11 misterLogLog ntpd[750]: receive: Unexpected origin timestamp 0xe40f896e.8b3a9d6b does not match aorg 0000000000.00000000 from server@162.159.200.123 xmt 0xe40f896f.48e135a1
+Mar 31 23:51:11 misterLogLog systemd[1]: Time has been changed
+Mar 31 23:51:11 misterLogLog systemd[1]: apt-daily.timer: Adding 7h 15min 35.982217s random time.
+Mar 31 23:51:11 misterLogLog systemd[1]: apt-daily-upgrade.timer: Adding 40min 3.098389s random time.
+Mar 31 23:51:11 misterLogLog ntpd[750]: receive: Unexpected origin timestamp 0xe40f896e.8b372dbd does not match aorg 0000000000.00000000 from server@131.216.7.51 xmt 0xe40f896f.4b002b6f
+Mar 31 23:51:11 misterLogLog ntpd[750]: receive: Unexpected origin timestamp 0xe40f896e.8b3a620d does not match aorg 0000000000.00000000 from server@163.237.218.18 xmt 0xe40f896f.4f774854
+Mar 31 23:51:11 misterLogLog ntpd[750]: receive: Unexpected origin timestamp 0xe40f896e.8b3aec1d does not match aorg 0000000000.00000000 from server@66.228.59.187 xmt 0xe40f896f.4fbd4902
+Mar 31 23:51:11 misterLogLog ntpd[750]: receive: Unexpected origin timestamp 0xe40f896e.8b3ac409 does not match aorg 0000000000.00000000 from server@69.1.1.251 xmt 0xe40f896f.56454f24
+Apr  1 00:03:37 misterLogLog ntpd[750]: 193.2.78.228 local addr 165.232.58.184 -> <null>
+Apr  1 00:05:50 misterLogLog ntpd[750]: 108.59.2.24 local addr 165.232.58.184 -> <null>
+Apr  1 00:05:54 misterLogLog ntpd[750]: 69.1.1.251 local addr 165.232.58.184 -> <null>
+Apr  1 00:05:59 misterLogLog systemd[1]: Starting Cleanup of Temporary Directories...
+Apr  1 00:05:59 misterLogLog systemd[1]: Started Cleanup of Temporary Directories.
+Apr  1 00:06:56 misterLogLog ntpd[750]: 5.196.160.139 local addr 165.232.58.184 -> <null>
+Apr  1 00:07:37 misterLogLog ntpd[750]: 64.225.34.103 local addr 165.232.58.184 -> <null>
+Apr  1 00:07:39 misterLogLog ntpd[750]: 50.205.244.109 local addr 165.232.58.184 -> <null>
+Apr  1 00:17:01 misterLogLog cron[687]: Authentication token is no longer valid; new one required
+Apr  1 00:29:10 misterLogLog ntpd[750]: 45.63.54.13 local addr 165.232.58.184 -> <null>
+Apr  1 00:30:04 misterLogLog systemd[1]: getty@tty1.service: Service has no hold-off time, scheduling restart.
+Apr  1 00:30:04 misterLogLog systemd[1]: Stopped Getty on tty1.
+Apr  1 00:30:04 misterLogLog systemd[1]: Started Getty on tty1.
+Apr  1 00:31:13 misterLogLog systemd[1]: Created slice User Slice of root.
+Apr  1 00:31:13 misterLogLog systemd[1]: Starting User Manager for UID 0...
+Apr  1 00:31:13 misterLogLog systemd[1]: Started Session 1 of user root.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Reached target Paths.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr  1 00:31:13 misterLogLog systemd[1594]: Listening on GnuPG cryptographic agent (access for web browsers).
+Apr  1 00:31:13 misterLogLog systemd[1594]: Reached target Timers.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr  1 00:31:13 misterLogLog systemd[1594]: Reached target Sockets.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Reached target Basic System.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Reached target Default.
+Apr  1 00:31:13 misterLogLog systemd[1594]: Startup finished in 10ms.
+Apr  1 00:31:13 misterLogLog systemd[1]: Started User Manager for UID 0.
+Apr  1 00:36:06 misterLogLog ntpd[750]: 66.228.59.187 local addr 165.232.58.184 -> <null>
+Apr  1 00:46:13 misterLogLog systemd[1]: Reloading.
+Apr  1 00:46:13 misterLogLog systemd[1]: Reloading.
+Apr  1 00:46:13 misterLogLog systemd[1]: Reloading.
+Apr  1 00:46:13 misterLogLog systemd[1]: Reloading.
+Apr  1 00:46:13 misterLogLog systemd[1]: Reloading.
+Apr  1 00:55:36 misterLogLog systemd[1]: Started Session 3 of user root.
